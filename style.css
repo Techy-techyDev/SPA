@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+header ul li {
+  background-color: #8acfb8;
+  height: none;
+  background-size: cover;
+  background-position: center;
+  min-height: 10px;
+  /* padding: 5px 20px; */
+}
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+  min-height: 400px;
+  margin-right: 60px;
+  font-size: 17px;
+}
+ul li {
+  display: inline-block;
+  cursor: pointer;
+}
+/* ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  transition: o.5 ease;
+  border: solid transparent; */
+/* } */
+
+ul li .nav-btn {
+  background-color: #fff;
+  color: #000;
+}
+header ul li :hover .nav-btn {
+  background-color: #8acfb8;
+  color: #994118;
+  
+}
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+.title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title h1 {
+  color: green;
+  font-size: 70px;
+}
+
+.dessert {
+  background-color: #f0f0f0;
+
+  background-image: url(./images/Strawberry-mousse-6621dcb.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+.dessert .title .p {
+  color: #fff;
+}
+p {
+  font-size: 20px;
+  color: black;
+}
+.home {
+  background-color: #f0f0f0;
+
+  background-image: url(./images/kitchen.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 100px;
+}
+.search {
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+}
+.search input {
+  flex: 1;
+  border: 0;
+
+  outline: 0;
+  margin-left: 20px;
+}
+.search button {
+  background: #db000b;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px;
+}
+.pasta {
+  background-color: #f0f0f0;
+
+  background-image: url(./images/tomato.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+.salad {
+  background-color: #f0f0f0;
+
+  background-image: url(./images/fat.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+.pizza {
+  background-color: #f0f0f0;
+
+  background-image: url(./images/slice.avif);
+  height: 100vh;
+  background-position: cover;
+  background-position: center;
+  min-height: 100px;
+}
+.appetizer {
+  background-color: #f0f0f0;
+
+  background-image: url(./images/Vegetable-Skewer-Cocktail-Recipe1-750x500.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+.about {
+  background-color: #f0f0f0;
+
+  background-image: url(./images/display.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+.burger {
+  background-color: #f0f0f0;
+
+  background-image: url(./images/Burger_Vermilion-by-LeadingDC-cropped-2-2048x2048.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
